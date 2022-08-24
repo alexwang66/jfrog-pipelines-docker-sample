@@ -74,7 +74,7 @@ pipelines:
         configuration:
           targetRepository: demo-docker-prod-local
           integrations:
-            - name: art
+            - name: artifactory
           inputResources:
             - name: dbp_build_info
           outputResources:
