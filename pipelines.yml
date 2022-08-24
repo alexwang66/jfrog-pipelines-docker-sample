@@ -6,6 +6,8 @@ resources:
       path: alexwang66/jfrog-pipelines-docker-sample    # <-- replace with your repository name
       branches:
         include: master
+      buildOn:
+        commit: true
 
   - name: dbp_image
     type: Image
